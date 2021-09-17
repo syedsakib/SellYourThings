@@ -71,6 +71,7 @@ const MessagesScreen = () => {
         ItemSeparatorComponent={() => <ListItemSeparator />}
         refreshing={refreshing}
         onRefresh={handleRefreshing}
+        showsVerticalScrollIndicator={false}
       />
     </Screen>
   );
