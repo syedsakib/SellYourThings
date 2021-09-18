@@ -4,7 +4,6 @@ import { TouchableOpacity, StyleSheet } from "react-native";
 import AppText from "./AppText";
 
 const PickerItem = ({ label, onPress }) => {
-  console.log(label);
   return (
     <TouchableOpacity style={styles.text} onPress={onPress}>
       <AppText>{label}</AppText>
